@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact · Arogya</title>
+  <meta name="description" content="Get in touch with the Arogya research team." />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,400;0,500;0,600;1,400&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/contact.css" />
+</head>
+<body>
+
+  <!-- =========================================== Navigation -->
+  <nav class="navbar">
+    <div class="nav-inner">
+      <a href="index.html" class="brand">
+        <span class="brand-mark">आ</span>
+        <span>Arogya<em style="font-style: normal; color: var(--leaf);"></em></span>
+      </a>
+      <button class="nav-toggle" aria-label="Toggle menu">☰</button>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="domain.html">Domain</a></li>
+        <li><a href="milestones.html">Milestones</a></li>
+        <li><a href="documents.html">Documents</a></li>
+        <li><a href="presentations.html">Presentations</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- =========================================== Page hero -->
+  <header class="page-hero">
+    <div class="container">
+      <span class="eyebrow">Contact</span>
+      <h1>Let's <em>talk</em>.</h1>
+      <p>Questions about the research, collaboration ideas, or simply want to learn more? We'd love to hear from you.</p>
+    </div>
+  </header>
+
+  <!-- =========================================== Contact split -->
+  <section class="contact-section">
+    <div class="container">
+      <div class="contact-split">
+
+        <!-- Left: contact info -->
+        <div class="contact-info">
+          <div class="info-block">
+            <span class="info-label">General Inquiry</span>
+            <a href="mailto:ayurvedaai.team@my.sliit.lk" class="info-value">ayurvedaai.team@my.sliit.lk</a>
+          </div>
+
+          <div class="info-block">
+            <span class="info-label">Project Supervisor</span>
+            <span class="info-name">Ms. Manori Gamage</span>
+            <a href="mailto:manori.g@sliit.lk" class="info-link">manori.g@sliit.lk</a>
+          </div>
+
+          <div class="info-block">
+            <span class="info-label">Co-Supervisor</span>
+            <span class="info-name">Ms. Uthpala Samarakoon</span>
+            <a href="mailto:uthpala.s@sliit.lk" class="info-link">uthpala.s@sliit.lk</a>
+          </div>
+
+          <div class="info-block">
+            <span class="info-label">Institution</span>
+            <span class="info-name">Sri Lanka Institute of Information Technology</span>
+            <span class="info-text">New Kandy Road, Malabe 10115, Sri Lanka</span>
+          </div>
+
+          <div class="info-block">
+            <span class="info-label">Phone</span>
+            <a href="tel:+94117544801" class="info-link">+94 11 754 4801</a>
+          </div>
+
+          <div class="info-divider"></div>
+
+          <div class="info-block">
+            <span class="info-label">Project Details</span>
+            <span class="info-text">Project ID: 25-26J-305</span>
+            <span class="info-text">Research Group: CoEAI · Centre of Excellence for AI</span>
+            <span class="info-text">Module: IT4010 · Research Project</span>
+          </div>
+        </div>
+
+        <!-- Right: contact form -->
+        <div class="contact-form-wrap">
+          <div class="form-card">
+            <h2>Send us a message</h2>
+            <p>Use the form below, or copy the email template at the bottom of the page.</p>
+
+            <form id="contact-form" class="contact-form" novalidate>
+              <div class="form-row">
+                <div class="form-field">
+                  <label for="name">Your name</label>
+                  <input type="text" id="name" name="name" required />
+                </div>
+                <div class="form-field">
+                  <label for="email">Your email</label>
+                  <input type="email" id="email" name="email" required />
+                </div>
+              </div>
+
+              <div class="form-field">
+                <label for="topic">Topic</label>
+                <div class="select-wrap">
+                  <select id="topic" name="topic" required>
+                    <option value="">Select a topic</option>
+                    <option value="general">General Inquiry</option>
+                    <option value="research">Research Collaboration</option>
+                    <option value="disease">Disease Prediction Module</option>
+                    <option value="medicine">Medicine Recommendation Module</option>
+                    <option value="diet">Dietary Planning Module</option>
+                    <option value="qa">Q&A Module</option>
+                    <option value="other">Other</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="form-field">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary form-submit">
+                Send message →
+              </button>
+
+              <p class="form-note">
+                This form opens your default email client with a pre-filled message.
+              </p>
+            </form>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================== Email template -->
+  <section class="template-section">
+    <div class="container">
+      <div class="section-head">
+        <span class="eyebrow">Email Template</span>
+        <h2>Prefer to email directly?</h2>
+        <p style="margin-top: 1rem;">Copy this template, paste into your email client, and adapt as needed. Send to <strong>ayurvedaai.team@my.sliit.lk</strong>.</p>
+      </div>
+
+      <div class="template-card">
+        <div class="template-head">
+          <span class="template-label">Template</span>
+          <button class="copy-btn" id="copy-template">
+            <span>Copy</span>
+          </button>
+        </div>
+        <pre id="email-template">Subject: [Arogya] — &lt;Your topic here&gt;
+
+Dear Arogya Team,
+
+My name is &lt;Your Name&gt; and I am reaching out regarding &lt;briefly describe your reason: research collaboration, question about a module, feedback, etc.&gt;.
+
+&lt;Provide context here. The more specific you are, the better we can help — e.g. mention which module you're interested in, your background, or what you'd like to discuss.&gt;
+
+I would appreciate hearing back at your convenience.
+
+Thank you,
+&lt;Your Name&gt;
+&lt;Your Affiliation / Role&gt;
+&lt;Optional: Phone or LinkedIn&gt;</pre>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================== Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="brand">
+            <span class="brand-mark">आ</span>
+            <span>Arogya<em style="font-style: normal; color: var(--gold);"></em></span>
+          </div>
+          <p>Smart Ayurvedic Disease Prediction and Recommendation System — a research project at SLIIT, Centre of Excellence for AI.</p>
+        </div>
+        <div>
+          <h4>Project</h4>
+          <ul>
+            <li><a href="domain.html">Domain</a></li>
+            <li><a href="milestones.html">Milestones</a></li>
+            <li><a href="documents.html">Documents</a></li>
+            <li><a href="presentations.html">Presentations</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Team</h4>
+          <ul>
+            <li><a href="about.html">About us</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Institution</h4>
+          <ul>
+            <li><a href="#" target="_blank" rel="noopener">SLIIT</a></li>
+            <li><a href="#" target="_blank" rel="noopener">CoEAI</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2025 · Project ID 25-26J-305</span>
+        <span>SLIIT · IT4010 Research Project</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script src="js/contact.js"></script>
+</body>
+</html>
