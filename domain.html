@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Domain · AyurvedaAI</title>
+  <meta name="description" content="Research domain — literature survey, research gap, problem, objectives, methodology, and technologies." />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,400;0,500;0,600;1,400&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/domain.css" />
+</head>
+<body>
+
+  <!-- =========================================== Navigation -->
+  <nav class="navbar">
+    <div class="nav-inner">
+      <a href="index.html" class="brand">
+        <span class="brand-mark">आ</span>
+        <span>Ayurveda<em style="font-style: normal; color: var(--leaf);">AI</em></span>
+      </a>
+      <button class="nav-toggle" aria-label="Toggle menu">☰</button>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="domain.html" class="active">Domain</a></li>
+        <li><a href="milestones.html">Milestones</a></li>
+        <li><a href="documents.html">Documents</a></li>
+        <li><a href="presentations.html">Presentations</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- =========================================== Page hero -->
+  <header class="page-hero">
+    <div class="container">
+      <span class="eyebrow">Research Domain</span>
+      <h1>The intersection of <em>tradition</em> and <em>intelligence</em>.</h1>
+      <p>An overview of the research landscape, the gap our work addresses, and the methodology guiding the project from classical text to predictive model.</p>
+    </div>
+  </header>
+
+  <!-- =========================================== Section navigation -->
+  <div class="section-nav-wrap">
+    <div class="container">
+      <nav class="section-nav">
+        <a href="#literature">Literature Survey</a>
+        <a href="#gap">Research Gap</a>
+        <a href="#problem">Research Problem</a>
+        <a href="#objectives">Objectives</a>
+        <a href="#methodology">Methodology</a>
+        <a href="#technologies">Technologies</a>
+      </nav>
+    </div>
+  </div>
+
+  <!-- =========================================== Literature Survey -->
+  <section id="literature">
+    <div class="container">
+      <div class="section-head">
+        <span class="eyebrow">01 · Literature Survey</span>
+        <h2>What the field has explored so far.</h2>
+        <p style="margin-top: 1rem;">Recent research has demonstrated machine learning's potential across many corners of Ayurveda — from constitutional classification and disease prediction to herb recommendation and conversational Q&A. Yet most efforts remain siloed, monolingual, and disconnected from authoritative classical sources.</p>
+      </div>
+
+      <div class="lit-grid">
+        <article class="lit-card">
+          <div class="lit-num">01 · PRAKRITI</div>
+          <h3>Constituent balancing with ML</h3>
+          <p>Madaan and Goyal (2020) used Random Forest, Naive Bayes, and Decision Tree on Prakriti questionnaires, achieving 93.05% accuracy in predicting Vata–Pitta–Kapha imbalance.</p>
+          <span class="lit-tag">IEEE Access · 2020</span>
+        </article>
+
+        <article class="lit-card">
+          <div class="lit-num">02 · PRAKRITI</div>
+          <h3>Phenotype-based Prakriti recap</h3>
+          <p>Tiwari et al. (2017) showed that Ayurveda constitution types can be recapitulated through ML on phenotypic traits, validating constitutional categories computationally.</p>
+          <span class="lit-tag">PLOS ONE · 2017</span>
+        </article>
+
+        <article class="lit-card">
+          <div class="lit-num">03 · DEEP LEARNING</div>
+          <h3>Deep learning for Prakriti</h3>
+          <p>Khatua et al. (2023) classified Ayurveda constitution types using deep learning, achieving improved accuracy over traditional ML approaches.</p>
+          <span class="lit-tag">Soft Computing · 2023</span>
+        </article>
+
+        <article class="lit-card">
+          <div class="lit-num">04 · DISEASE</div>
+          <h3>Parkinson's via dosha analysis</h3>
+          <p>Majhi et al. (2023) developed an ML-based Parkinson's prediction system through Ayurvedic dosha analysis — strong precedent for disease-specific dosha modelling.</p>
+          <span class="lit-tag">Int. J. Ayurvedic Medicine · 2023</span>
+        </article>
+
+        <article class="lit-card">
+          <div class="lit-num">05 · MEDICINE</div>
+          <h3>Decision Tree-based herb recommendation</h3>
+          <p>Vijay M et al. (2024) presented an Ayurvedic Medicine Recommendation System using Decision Tree algorithms with symptom-based analysis, reaching 95.34% test accuracy.</p>
+          <span class="lit-tag">ICERCS · 2024</span>
+        </article>
+
+        <article class="lit-card">
+          <div class="lit-num">06 · MEDICINE</div>
+          <h3>Ontology-based personalised herbs</h3>
+          <p>Promkot et al. (2019) proposed a personalised traditional medicine recommender using ontology modelling and rule inference — adaptable to Ayurveda.</p>
+          <span class="lit-tag">IEEE ICCCS · 2019</span>
+        </article>
+
+        <article class="lit-card">
+          <div class="lit-num">07 · MEDICINE</div>
+          <h3>AyurVedaMitra</h3>
+          <p>Varsha et al. (2025) built a mobile Ayurvedic platform using CNN and Random Forest, demonstrating ensemble learning for precision medicine in traditional contexts.</p>
+          <span class="lit-tag">IEEE IITCEE · 2025</span>
+        </article>
+
+        <article class="lit-card">
+          <div class="lit-num">08 · DIET</div>
+          <h3>Ayurveda-based recipe recommendation</h3>
+          <p>Ismayilova et al. (2024) mined 350,000+ recipes and used NLP + KNN to recommend dishes by dosha compatibility — a precedent for Ayurvedic dietary ML.</p>
+          <span class="lit-tag">Preprint · 2024</span>
+        </article>
+
+        <article class="lit-card">
+          <div class="lit-num">09 · DIET</div>
+          <h3>Ayurvedic concepts of food</h3>
+          <p>Sharma et al. (2007) and Singh (2007) detail rasa, virya, vipaka, and pathya–apathya principles — foundational sources for any computational diet system.</p>
+          <span class="lit-tag">J. Altern. Complement. Med.</span>
+        </article>
+
+        <article class="lit-card">
+          <div class="lit-num">10 · QA</div>
+          <h3>AyurMate &amp; AyUR-bot</h3>
+          <p>Recent rule-based and RAG-style Ayurvedic chatbots (2024–2025) achieve fluent QA but lack source-grounded citations and multilingual support.</p>
+          <span class="lit-tag">IEEE AIDE · 2025</span>
+        </article>
+
+        <article class="lit-card">
+          <div class="lit-num">11 · QA</div>
+          <h3>Sinhala Ayurvedic chatbot</h3>
+          <p>Jayalath et al. (2019) integrated CNN-based plant recognition with a Sinhala AIML chatbot — innovative but rule-driven, with no semantic retrieval.</p>
+          <span class="lit-tag">IEEE ICAC · 2019</span>
+        </article>
+
+        <article class="lit-card">
+          <div class="lit-num">12 · LOCAL</div>
+          <h3>Sri Lankan Ayurvedic skin diseases</h3>
+          <p>Silva et al. (2024) identified human skin diseases with ML using Sri Lankan Ayurveda — a closely related local effort applying ML to traditional medicine.</p>
+          <span class="lit-tag">IEEE ICIT · 2024</span>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================== Research Gap -->
+  <section id="gap" class="section-alt">
+    <div class="container">
+      <div class="section-head">
+        <span class="eyebrow">02 · Research Gap</span>
+        <h2>Where existing work falls short.</h2>
+      </div>
+
+      <div class="gap-grid">
+        <div class="gap-item">
+          <div class="gap-icon">⚬</div>
+          <h4>Constitution and disease are studied separately</h4>
+          <p>Most research focuses either on Prakriti classification or on isolated disease prediction — never both, integrated into a single decision pipeline.</p>
+        </div>
+
+        <div class="gap-item">
+          <div class="gap-icon">⚬</div>
+          <h4>Classical texts remain unstructured</h4>
+          <p>Charaka Samhita, Madhava Nidana, and Ashtanga Hridaya hold rich symptom–disease–herb relationships, but no machine-readable structured corpus exists for Sri Lankan Ayurveda.</p>
+        </div>
+
+        <div class="gap-item">
+          <div class="gap-icon">⚬</div>
+          <h4>No multi-script OCR for Sanskrit + Sinhala</h4>
+          <p>Standard OCR tools cannot accurately read ligature-heavy Sanskrit Devanagari or classical Sinhala fonts — blocking automated knowledge extraction at scale.</p>
+        </div>
+
+        <div class="gap-item">
+          <div class="gap-icon">⚬</div>
+          <h4>No cross-lingual retrieval for Sinhala/Singlish</h4>
+          <p>Existing Ayurvedic chatbots support English alone. Sri Lankan students and practitioners often use Sinhala or code-mixed Singlish, leaving them unserved.</p>
+        </div>
+
+        <div class="gap-item">
+          <div class="gap-icon">⚬</div>
+          <h4>Diet systems oversimplify Ayurvedic principles</h4>
+          <p>Most digital diet tools reduce dosha–food relationships to binary favour/avoid lists, ignoring rasa, virya, vipaka, guna, and contextual factors like agni, mood, and season.</p>
+        </div>
+
+        <div class="gap-item">
+          <div class="gap-icon">⚬</div>
+          <h4>Single-output systems</h4>
+          <p>Existing tools predict <em>or</em> recommend — none combine prediction, medicine, diet, and source-grounded Q&A into one constitutionally-aware platform.</p>
+        </div>
+
+        <div class="gap-item">
+          <div class="gap-icon">⚬</div>
+          <h4>Lack of practitioner validation</h4>
+          <p>Many computational Ayurveda projects skip practitioner validation, weakening clinical reliability and trust in their recommendations.</p>
+        </div>
+
+        <div class="gap-item">
+          <div class="gap-icon">⚬</div>
+          <h4>Hallucination in generative QA</h4>
+          <p>Generative chatbots produce fluent answers without source citations, leading to fabricated content with no way to verify against authoritative texts.</p>
+        </div>
+
+        <div class="gap-item">
+          <div class="gap-icon">⚬</div>
+          <h4>Limited Sri Lankan Ayurvedic AI</h4>
+          <p>Despite Ayurveda's cultural prominence in Sri Lanka, very few digital, intelligent systems exist that respect local Hela Wedakama principles and serve local communities.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================== Research Problem -->
+  <section id="problem">
+    <div class="container">
+      <div class="problem-card">
+        <span class="eyebrow">03 · Research Problem</span>
+        <h2>The problem we're solving.</h2>
+        <p class="problem-statement">
+          How can we build an integrated AI system that respects classical Ayurvedic principles —
+          particularly Prakriti and dosha imbalance — while delivering accurate, personalised
+          disease prediction, herbal recommendation, dietary planning, and source-grounded
+          advisory support to Sri Lankans who lack easy access to qualified practitioners?
+        </p>
+        <div class="problem-pillars">
+          <div>
+            <strong>Cultural fidelity</strong>
+            <span>Preserve authentic Ayurvedic principles in every recommendation, validated by practitioners.</span>
+          </div>
+          <div>
+            <strong>Computational rigour</strong>
+            <span>Apply rigorous ML, NLP, and document intelligence with proper evaluation.</span>
+          </div>
+          <div>
+            <strong>Real accessibility</strong>
+            <span>Serve users in Sinhala, English, and Singlish — including low-connectivity regions.</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================== Objectives -->
+  <section id="objectives" class="section-alt">
+    <div class="container">
+      <div class="section-head">
+        <span class="eyebrow">04 · Objectives</span>
+        <h2>What this project sets out to achieve.</h2>
+      </div>
+
+      <div class="obj-main">
+        <div class="obj-tag">MAIN OBJECTIVE</div>
+        <h3>Develop an integrated AI system for Ayurvedic healthcare that combines traditional principles with modern ML, NLP, and document-intelligence techniques to deliver personalised disease prediction, medicine recommendation, dietary planning, and source-grounded question answering.</h3>
+      </div>
+
+      <div class="obj-grid">
+        <div class="obj-card">
+          <span class="obj-num">01</span>
+          <h4>Disease Prediction</h4>
+          <p>Build a constitutional-aware ML model integrating symptoms with Prakriti and tridosha imbalance, validated by Ayurvedic practitioners.</p>
+          <span class="obj-author">Perera S I A</span>
+        </div>
+        <div class="obj-card">
+          <span class="obj-num">02</span>
+          <h4>Medicine Recommendation</h4>
+          <p>Extract disease–herb relationships using NER and develop a multi-factor herb recommender using Random Forest, SVM, and Decision Tree.</p>
+          <span class="obj-author">Roche J P</span>
+        </div>
+        <div class="obj-card">
+          <span class="obj-num">03</span>
+          <h4>Dietary Planning</h4>
+          <p>Generate personalised meal plans grounded in Rasa, Virya, Vipaka, and Guna — adapted to dosha, disease, season, mood, and digestion.</p>
+          <span class="obj-author">Dias W A N M</span>
+        </div>
+        <div class="obj-card">
+          <span class="obj-num">04</span>
+          <h4>Source-Grounded Q&A</h4>
+          <p>Build a multi-script OCR + Hybrid RAG pipeline that answers Sinhala, English, and Singlish queries with verifiable verse citations.</p>
+          <span class="obj-author">Fernando K P M R A</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================== Methodology -->
+  <section id="methodology">
+    <div class="container">
+      <div class="section-head">
+        <span class="eyebrow">05 · Methodology</span>
+        <h2>From classical text to predictive model.</h2>
+        <p style="margin-top: 1rem;">Our approach follows a structured pipeline shared across all four modules — gathering authentic data, processing it with NLP and document intelligence, engineering features, training and validating models, and integrating the results into a usable interface.</p>
+      </div>
+
+      <ol class="method-steps">
+        <li>
+          <span class="step-num">01</span>
+          <div>
+            <h4>Data collection</h4>
+            <p>Digitise classical Ayurvedic texts (Charaka Samhita, Madhava Nidana, Ashtanga Hridaya), collect Prakriti questionnaire responses, gather anonymised consultation records from Nawinna and Rajagiriya hospitals, and mine validated Ayurvedic dietary manuals.</p>
+          </div>
+        </li>
+        <li>
+          <span class="step-num">02</span>
+          <div>
+            <h4>Document intelligence &amp; NLP</h4>
+            <p>Apply multi-script OCR (Sanskrit Devanagari + Sinhala) and Named Entity Recognition tuned for medical terminology to extract symptom–disease, disease–herb, and food–dosha relationships from classical sources.</p>
+          </div>
+        </li>
+        <li>
+          <span class="step-num">03</span>
+          <div>
+            <h4>Feature engineering</h4>
+            <p>Encode symptoms, classify foods by rasa/virya/vipaka/guna, weight features by constitutional context, score severity (mild / moderate / severe), and integrate dosha imbalance as predictive signal.</p>
+          </div>
+        </li>
+        <li>
+          <span class="step-num">04</span>
+          <div>
+            <h4>Model training</h4>
+            <p>Train and compare Random Forest, SVM, Decision Tree, KNN, and Neural Network classifiers across modules. Build a Hybrid RAG (FAISS + BM25) retriever for the Q&A module with cross-lingual embeddings.</p>
+          </div>
+        </li>
+        <li>
+          <span class="step-num">05</span>
+          <div>
+            <h4>Expert validation</h4>
+            <p>Validate predictions, herbal mappings, and dietary recommendations through consultation with qualified Ayurvedic practitioners and dieticians. Compare model performance with and without constitutional features.</p>
+          </div>
+        </li>
+        <li>
+          <span class="step-num">06</span>
+          <div>
+            <h4>Integration &amp; deployment</h4>
+            <p>Build a unified web interface where the four modules — disease prediction, medicine, diet, Q&A — share user context, integrate via REST APIs, and deliver personalised outputs with confidence scores and citations.</p>
+          </div>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- =========================================== Technologies -->
+  <section id="technologies" class="section-alt">
+    <div class="container">
+      <div class="section-head">
+        <span class="eyebrow">06 · Technologies</span>
+        <h2>The stack powering it.</h2>
+      </div>
+
+      <div class="tech-grid">
+        <div class="tech-card">
+          <h4>Languages</h4>
+          <ul>
+            <li>Python</li>
+            <li>JavaScript</li>
+            <li>HTML / CSS</li>
+          </ul>
+        </div>
+        <div class="tech-card">
+          <h4>ML &amp; Deep Learning</h4>
+          <ul>
+            <li>scikit-learn</li>
+            <li>TensorFlow / Keras</li>
+            <li>PyTorch</li>
+            <li>Random Forest, SVM, KNN</li>
+          </ul>
+        </div>
+        <div class="tech-card">
+          <h4>NLP &amp; Transformers</h4>
+          <ul>
+            <li>spaCy / NLTK</li>
+            <li>Hugging Face Transformers</li>
+            <li>mBERT / IndicBERT</li>
+            <li>Sinhala-BERT</li>
+          </ul>
+        </div>
+        <div class="tech-card">
+          <h4>OCR &amp; Document AI</h4>
+          <ul>
+            <li>Tesseract OCR</li>
+            <li>PaddleOCR</li>
+            <li>LayoutLM / DocTr</li>
+          </ul>
+        </div>
+        <div class="tech-card">
+          <h4>Retrieval &amp; Search</h4>
+          <ul>
+            <li>FAISS (vector DB)</li>
+            <li>Elasticsearch / BM25</li>
+            <li>Hybrid RAG pipeline</li>
+          </ul>
+        </div>
+        <div class="tech-card">
+          <h4>Backend</h4>
+          <ul>
+            <li>Flask / FastAPI</li>
+            <li>REST APIs</li>
+            <li>SQLite / MongoDB</li>
+          </ul>
+        </div>
+        <div class="tech-card">
+          <h4>Frontend</h4>
+          <ul>
+            <li>HTML5 / CSS3</li>
+            <li>JavaScript</li>
+            <li>React (optional)</li>
+          </ul>
+        </div>
+        <div class="tech-card">
+          <h4>Tools &amp; Visualisation</h4>
+          <ul>
+            <li>Jupyter Notebooks</li>
+            <li>Git / GitHub · VS Code</li>
+            <li>Matplotlib / Seaborn / Plotly</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================== Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="brand">
+            <span class="brand-mark">आ</span>
+            <span>Ayurveda<em style="font-style: normal; color: var(--gold);">AI</em></span>
+          </div>
+          <p>Smart Ayurvedic Disease Prediction and Recommendation System — a research project at SLIIT, Centre of Excellence for AI.</p>
+        </div>
+        <div>
+          <h4>Project</h4>
+          <ul>
+            <li><a href="domain.html">Domain</a></li>
+            <li><a href="milestones.html">Milestones</a></li>
+            <li><a href="documents.html">Documents</a></li>
+            <li><a href="presentations.html">Presentations</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Team</h4>
+          <ul>
+            <li><a href="about.html">About us</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Institution</h4>
+          <ul>
+            <li><a href="#" target="_blank" rel="noopener">SLIIT</a></li>
+            <li><a href="#" target="_blank" rel="noopener">CoEAI</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2025 · Project ID 25-26J-305</span>
+        <span>SLIIT · IT4010 Research Project</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

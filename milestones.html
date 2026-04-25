@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Milestones · AyurvedaAI</title>
+  <meta name="description" content="Project milestones — assessments, deliverables, dates, and mark allocations." />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,400;0,500;0,600;1,400&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/milestones.css" />
+</head>
+<body>
+
+  <!-- =========================================== Navigation -->
+  <nav class="navbar">
+    <div class="nav-inner">
+      <a href="index.html" class="brand">
+        <span class="brand-mark">आ</span>
+        <span>Ayurveda<em style="font-style: normal; color: var(--leaf);">AI</em></span>
+      </a>
+      <button class="nav-toggle" aria-label="Toggle menu">☰</button>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="domain.html">Domain</a></li>
+        <li><a href="milestones.html" class="active">Milestones</a></li>
+        <li><a href="documents.html">Documents</a></li>
+        <li><a href="presentations.html">Presentations</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- =========================================== Page hero -->
+  <header class="page-hero">
+    <div class="container">
+      <span class="eyebrow">Project Milestones</span>
+      <h1>Tracking the journey from <em>idea</em> to <em>thesis</em>.</h1>
+      <p>Every assessment, deliverable, and review across the 12-month research project — with allocated marks, target dates, and current status.</p>
+    </div>
+  </header>
+
+  <!-- =========================================== Progress overview -->
+  <section class="progress-section">
+    <div class="container">
+      <div class="progress-stats">
+        <div class="progress-stat">
+          <span class="progress-num">7</span>
+          <span class="progress-label">Total Assessments</span>
+        </div>
+        <div class="progress-stat">
+          <span class="progress-num">100<small>%</small></span>
+          <span class="progress-label">Total Marks</span>
+        </div>
+        <div class="progress-stat">
+          <span class="progress-num">12<small>mo</small></span>
+          <span class="progress-label">Project Duration</span>
+        </div>
+        <div class="progress-stat">
+          <span class="progress-num">2</span>
+          <span class="progress-label">Completed</span>
+        </div>
+      </div>
+
+      <div class="progress-bar-wrap">
+        <div class="progress-bar-label">
+          <span>Overall Progress</span>
+          <span class="progress-bar-percent">25%</span>
+        </div>
+        <div class="progress-bar">
+          <div class="progress-bar-fill" style="width: 25%;"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================== Milestone selector + details -->
+  <section class="milestone-section">
+    <div class="container">
+      <div class="section-head">
+        <span class="eyebrow">Assessment Timeline</span>
+        <h2>Select a milestone to view details.</h2>
+      </div>
+
+      <!-- Dropdown selector (as required by slide deck) -->
+      <div class="milestone-controls">
+        <label for="milestone-select">Jump to milestone</label>
+        <div class="select-wrap">
+          <select id="milestone-select">
+            <option value="0">All milestones</option>
+            <option value="1">Topic Assessment</option>
+            <option value="2">Project Charter</option>
+            <option value="3">Project Proposal</option>
+            <option value="4">Progress Presentation 1</option>
+            <option value="5">Progress Presentation 2</option>
+            <option value="6">Final Report &amp; Research Paper</option>
+            <option value="7">Final Presentation &amp; Viva</option>
+          </select>
+        </div>
+      </div>
+
+      <!-- Timeline -->
+      <ol class="milestone-timeline">
+
+        <li class="milestone" data-id="1" data-status="done">
+          <div class="milestone-marker">
+            <span class="milestone-num">01</span>
+          </div>
+          <div class="milestone-card">
+            <div class="milestone-head">
+              <div>
+                <h3>Topic Assessment</h3>
+                <p class="milestone-desc">Submission of the Topic Assessment Form — defining the project scope, novelty, and group structure for evaluator review.</p>
+              </div>
+              <span class="milestone-status status-done">Completed</span>
+            </div>
+            <div class="milestone-meta">
+              <div>
+                <span class="meta-label">Date</span>
+                <span class="meta-val">June 2025</span>
+              </div>
+              <div>
+                <span class="meta-label">Marks</span>
+                <span class="meta-val">— <small>(formative)</small></span>
+              </div>
+              <div>
+                <span class="meta-label">Type</span>
+                <span class="meta-val">Document</span>
+              </div>
+            </div>
+            <div class="milestone-deliverables">
+              <strong>Deliverables</strong>
+              <ul>
+                <li>Topic Assessment Form (TAF)</li>
+                <li>Component objectives per member</li>
+                <li>Novelty identification</li>
+              </ul>
+            </div>
+          </div>
+        </li>
+
+        <li class="milestone" data-id="2" data-status="done">
+          <div class="milestone-marker">
+            <span class="milestone-num">02</span>
+          </div>
+          <div class="milestone-card">
+            <div class="milestone-head">
+              <div>
+                <h3>Project Charter</h3>
+                <p class="milestone-desc">Formal charter outlining project scope, deliverables, timeline, risks, and stakeholder agreements.</p>
+              </div>
+              <span class="milestone-status status-done">Completed</span>
+            </div>
+            <div class="milestone-meta">
+              <div>
+                <span class="meta-label">Date</span>
+                <span class="meta-val">July 2025</span>
+              </div>
+              <div>
+                <span class="meta-label">Marks</span>
+                <span class="meta-val">— <small>(formative)</small></span>
+              </div>
+              <div>
+                <span class="meta-label">Type</span>
+                <span class="meta-val">Document</span>
+              </div>
+            </div>
+            <div class="milestone-deliverables">
+              <strong>Deliverables</strong>
+              <ul>
+                <li>Project Charter document</li>
+                <li>Risk register and mitigation plan</li>
+                <li>Stakeholder identification</li>
+              </ul>
+            </div>
+          </div>
+        </li>
+
+        <li class="milestone" data-id="3" data-status="active">
+          <div class="milestone-marker">
+            <span class="milestone-num">03</span>
+          </div>
+          <div class="milestone-card">
+            <div class="milestone-head">
+              <div>
+                <h3>Project Proposal &amp; Presentation</h3>
+                <p class="milestone-desc">Detailed individual proposal report per member covering literature, gap, objectives, methodology, requirements, and timeline — followed by an oral defence to a panel.</p>
+              </div>
+              <span class="milestone-status status-active">In Progress</span>
+            </div>
+            <div class="milestone-meta">
+              <div>
+                <span class="meta-label">Date</span>
+                <span class="meta-val">September 2025</span>
+              </div>
+              <div>
+                <span class="meta-label">Marks</span>
+                <span class="meta-val">10%</span>
+              </div>
+              <div>
+                <span class="meta-label">Type</span>
+                <span class="meta-val">Doc + Presentation</span>
+              </div>
+            </div>
+            <div class="milestone-deliverables">
+              <strong>Deliverables</strong>
+              <ul>
+                <li>Individual Project Proposal (per member)</li>
+                <li>Proposal presentation slides</li>
+                <li>Oral defence to evaluation panel</li>
+              </ul>
+            </div>
+          </div>
+        </li>
+
+        <li class="milestone" data-id="4" data-status="upcoming">
+          <div class="milestone-marker">
+            <span class="milestone-num">04</span>
+          </div>
+          <div class="milestone-card">
+            <div class="milestone-head">
+              <div>
+                <h3>Progress Presentation 1 (PP1)</h3>
+                <p class="milestone-desc">First progress review demonstrating ~50% of implementation — including data collection, preprocessing pipeline, and initial model training results.</p>
+              </div>
+              <span class="milestone-status status-upcoming">Upcoming</span>
+            </div>
+            <div class="milestone-meta">
+              <div>
+                <span class="meta-label">Date</span>
+                <span class="meta-val">December 2025</span>
+              </div>
+              <div>
+                <span class="meta-label">Marks</span>
+                <span class="meta-val">15%</span>
+              </div>
+              <div>
+                <span class="meta-label">Type</span>
+                <span class="meta-val">Presentation + Demo</span>
+              </div>
+            </div>
+            <div class="milestone-deliverables">
+              <strong>Deliverables</strong>
+              <ul>
+                <li>50% implementation demo</li>
+                <li>Progress slides + status report</li>
+                <li>Initial baseline results</li>
+              </ul>
+            </div>
+          </div>
+        </li>
+
+        <li class="milestone" data-id="5" data-status="upcoming">
+          <div class="milestone-marker">
+            <span class="milestone-num">05</span>
+          </div>
+          <div class="milestone-card">
+            <div class="milestone-head">
+              <div>
+                <h3>Progress Presentation 2 (PP2)</h3>
+                <p class="milestone-desc">Second progress review showing ~90% of the system — full integration of all four modules, completed model training, expert validation, and integration testing.</p>
+              </div>
+              <span class="milestone-status status-upcoming">Upcoming</span>
+            </div>
+            <div class="milestone-meta">
+              <div>
+                <span class="meta-label">Date</span>
+                <span class="meta-val">February 2026</span>
+              </div>
+              <div>
+                <span class="meta-label">Marks</span>
+                <span class="meta-val">18%</span>
+              </div>
+              <div>
+                <span class="meta-label">Type</span>
+                <span class="meta-val">Presentation + Demo</span>
+              </div>
+            </div>
+            <div class="milestone-deliverables">
+              <strong>Deliverables</strong>
+              <ul>
+                <li>90% implementation demo</li>
+                <li>Integrated end-to-end system</li>
+                <li>Expert-validated outputs</li>
+              </ul>
+            </div>
+          </div>
+        </li>
+
+        <li class="milestone" data-id="6" data-status="upcoming">
+          <div class="milestone-marker">
+            <span class="milestone-num">06</span>
+          </div>
+          <div class="milestone-card">
+            <div class="milestone-head">
+              <div>
+                <h3>Final Report &amp; Research Paper</h3>
+                <p class="milestone-desc">Submission of the comprehensive final thesis (one per member) plus a group research paper documenting findings, methodology, results, and conclusions.</p>
+              </div>
+              <span class="milestone-status status-upcoming">Upcoming</span>
+            </div>
+            <div class="milestone-meta">
+              <div>
+                <span class="meta-label">Date</span>
+                <span class="meta-val">April 2026</span>
+              </div>
+              <div>
+                <span class="meta-label">Marks</span>
+                <span class="meta-val">27%</span>
+              </div>
+              <div>
+                <span class="meta-label">Type</span>
+                <span class="meta-val">Document</span>
+              </div>
+            </div>
+            <div class="milestone-deliverables">
+              <strong>Deliverables</strong>
+              <ul>
+                <li>Individual Final Report (soft + hard bound)</li>
+                <li>Group Research Paper</li>
+                <li>Research logbook</li>
+              </ul>
+            </div>
+          </div>
+        </li>
+
+        <li class="milestone" data-id="7" data-status="upcoming">
+          <div class="milestone-marker">
+            <span class="milestone-num">07</span>
+          </div>
+          <div class="milestone-card">
+            <div class="milestone-head">
+              <div>
+                <h3>Final Presentation &amp; Viva</h3>
+                <p class="milestone-desc">Final oral examination — full system demonstration to the panel followed by individual viva-voce assessing depth of knowledge in each member's component.</p>
+              </div>
+              <span class="milestone-status status-upcoming">Upcoming</span>
+            </div>
+            <div class="milestone-meta">
+              <div>
+                <span class="meta-label">Date</span>
+                <span class="meta-val">May 2026</span>
+              </div>
+              <div>
+                <span class="meta-label">Marks</span>
+                <span class="meta-val">30%</span>
+              </div>
+              <div>
+                <span class="meta-label">Type</span>
+                <span class="meta-val">Presentation + Viva</span>
+              </div>
+            </div>
+            <div class="milestone-deliverables">
+              <strong>Deliverables</strong>
+              <ul>
+                <li>Final presentation slides</li>
+                <li>Live system demonstration</li>
+                <li>Individual viva-voce</li>
+                <li>Project website (this site)</li>
+              </ul>
+            </div>
+          </div>
+        </li>
+
+      </ol>
+
+      <p class="marks-note">
+        <strong>Note:</strong> Mark allocations shown are indicative based on standard SLIIT IT4010 weightings.
+        Final percentages are subject to confirmation by the supervising department.
+      </p>
+    </div>
+  </section>
+
+  <!-- =========================================== Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="brand">
+            <span class="brand-mark">आ</span>
+            <span>Ayurveda<em style="font-style: normal; color: var(--gold);">AI</em></span>
+          </div>
+          <p>Smart Ayurvedic Disease Prediction and Recommendation System — a research project at SLIIT, Centre of Excellence for AI.</p>
+        </div>
+        <div>
+          <h4>Project</h4>
+          <ul>
+            <li><a href="domain.html">Domain</a></li>
+            <li><a href="milestones.html">Milestones</a></li>
+            <li><a href="documents.html">Documents</a></li>
+            <li><a href="presentations.html">Presentations</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Team</h4>
+          <ul>
+            <li><a href="about.html">About us</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Institution</h4>
+          <ul>
+            <li><a href="#" target="_blank" rel="noopener">SLIIT</a></li>
+            <li><a href="#" target="_blank" rel="noopener">CoEAI</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2025 · Project ID 25-26J-305</span>
+        <span>SLIIT · IT4010 Research Project</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script src="js/milestones.js"></script>
+</body>
+</html>

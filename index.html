@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Smart Ayurvedic Disease Prediction & Recommendation System</title>
+  <meta name="description" content="An AI-powered system bringing personalised Ayurvedic healthcare to everyone — combining classical Ayurvedic wisdom with modern machine learning." />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,400;0,500;0,600;1,400&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- =========================================== Navigation -->
+  <nav class="navbar">
+    <div class="nav-inner">
+      <a href="index.html" class="brand">
+        <span class="brand-mark">आ</span>
+        <span>Ayurveda<em style="font-style: normal; color: var(--leaf);">AI</em></span>
+      </a>
+      <button class="nav-toggle" aria-label="Toggle menu">☰</button>
+      <ul class="nav-links">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="domain.html">Domain</a></li>
+        <li><a href="milestones.html">Milestones</a></li>
+        <li><a href="documents.html">Documents</a></li>
+        <li><a href="presentations.html">Presentations</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- =========================================== Hero -->
+  <header class="hero">
+    <div class="container">
+      <div class="hero-grid">
+        <div>
+          <span class="eyebrow">Research Project · 25-26J-305</span>
+          <h1 class="hero-title">
+            Ancient wisdom,<br />
+            <em>intelligent</em> diagnosis.
+          </h1>
+          <p class="hero-lead">
+            A constitutional-aware AI system that unites classical Ayurvedic
+            principles with modern machine learning — delivering personalised
+            disease prediction, treatment, diet and guidance.
+          </p>
+          <div class="hero-cta">
+            <a href="domain.html" class="btn btn-primary">Explore the research →</a>
+            <a href="about.html" class="btn btn-ghost">Meet the team</a>
+          </div>
+          <div class="hero-meta">
+            <div>
+              <strong>Group</strong>
+              <span>CoEAI · IT</span>
+            </div>
+            <div>
+              <strong>Year</strong>
+              <span>2025 / 2026</span>
+            </div>
+            <div>
+              <strong>Members</strong>
+              <span>4</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="dosha-orb">
+            <!-- Tridosha visual: three overlapping circles -->
+            <svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+              <defs>
+                <radialGradient id="vata" cx="50%" cy="50%" r="50%">
+                  <stop offset="0%" stop-color="#5a8a3f" stop-opacity="0.85" />
+                  <stop offset="100%" stop-color="#3d6b28" stop-opacity="0.6" />
+                </radialGradient>
+                <radialGradient id="pitta" cx="50%" cy="50%" r="50%">
+                  <stop offset="0%" stop-color="#c89b3c" stop-opacity="0.85" />
+                  <stop offset="100%" stop-color="#a8801f" stop-opacity="0.6" />
+                </radialGradient>
+                <radialGradient id="kapha" cx="50%" cy="50%" r="50%">
+                  <stop offset="0%" stop-color="#2d4a1e" stop-opacity="0.85" />
+                  <stop offset="100%" stop-color="#1f3414" stop-opacity="0.65" />
+                </radialGradient>
+              </defs>
+
+              <!-- decorative outer ring -->
+              <circle cx="200" cy="200" r="195" fill="none" stroke="#2d4a1e" stroke-opacity="0.12" stroke-width="1" />
+              <circle cx="200" cy="200" r="170" fill="none" stroke="#2d4a1e" stroke-opacity="0.08" stroke-width="1" stroke-dasharray="2 6" />
+
+              <!-- three doshas overlapping -->
+              <circle cx="200" cy="135" r="95" fill="url(#vata)" style="mix-blend-mode: multiply;" />
+              <circle cx="145" cy="230" r="95" fill="url(#pitta)" style="mix-blend-mode: multiply;" />
+              <circle cx="255" cy="230" r="95" fill="url(#kapha)" style="mix-blend-mode: multiply;" />
+
+              <!-- labels -->
+              <text x="200" y="80" text-anchor="middle" fill="#2d4a1e" font-family="Fraunces, serif" font-size="14" font-style="italic" opacity="0.9">Vata</text>
+              <text x="90" y="285" text-anchor="middle" fill="#2d4a1e" font-family="Fraunces, serif" font-size="14" font-style="italic" opacity="0.9">Pitta</text>
+              <text x="310" y="285" text-anchor="middle" fill="#2d4a1e" font-family="Fraunces, serif" font-size="14" font-style="italic" opacity="0.9">Kapha</text>
+
+              <!-- center dot -->
+              <circle cx="200" cy="200" r="4" fill="#2d4a1e" />
+              <text x="200" y="350" text-anchor="middle" fill="#4d5a44" font-family="JetBrains Mono, monospace" font-size="9" letter-spacing="2">TRIDOSHA · CONSTITUTION</text>
+            </svg>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- =========================================== Pillars (4 modules) -->
+  <section class="pillars">
+    <div class="container">
+      <div class="section-head">
+        <span class="eyebrow">Four integrated modules</span>
+        <h2>One system. Four intelligences.</h2>
+      </div>
+      <div class="pillar-grid">
+
+        <article class="pillar featured">
+          <div class="pillar-num">01 / DISEASE PREDICTION</div>
+          <h3>Constitutional-Aware Prediction</h3>
+          <p>Predicts diseases using ML classifiers that integrate symptoms with Prakriti and tridosha imbalance — same body, smarter context.</p>
+        </article>
+
+        <article class="pillar">
+          <div class="pillar-num">02 / MEDICINE</div>
+          <h3>Herbal Recommendation</h3>
+          <p>NER-driven herb suggestions, classified by Random Forest and SVM models considering dosha, age, severity, and contraindications.</p>
+        </article>
+
+        <article class="pillar">
+          <div class="pillar-num">03 / DIET</div>
+          <h3>Dietary Planning</h3>
+          <p>Personalised daily and weekly meal plans grounded in Rasa, Virya, Vipaka, and Guna — adapting to season, mood, and digestion.</p>
+        </article>
+
+        <article class="pillar">
+          <div class="pillar-num">04 / Q&A</div>
+          <h3>Source-Grounded Q&A</h3>
+          <p>Multi-script OCR + hybrid RAG over Charaka Samhita and Madhava Nidana — answers in Sinhala, English, or Singlish, with verse citations.</p>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================== Why this matters -->
+  <section>
+    <div class="container">
+      <div class="split">
+        <div>
+          <span class="eyebrow">Why this research</span>
+          <h2>The gap between<br /> tradition and access.</h2>
+          <p style="margin-top: 1.5rem;">
+            Sri Lankans deeply value Ayurveda, yet qualified practitioners are
+            scarce in many regions — pushing people toward unverified online
+            advice and self-medication. Modern healthcare has embraced AI;
+            traditional medicine has not.
+          </p>
+          <p>
+            This project closes that gap by building a reliable, educational
+            digital companion that respects the depth of Ayurvedic principles
+            while making them accessible.
+          </p>
+        </div>
+        <ul class="split-list">
+          <li>
+            <h4>Limited practitioner access</h4>
+            <p>Especially in rural areas, in-person consultations remain difficult to obtain.</p>
+          </li>
+          <li>
+            <h4>Constitution is overlooked</h4>
+            <p>Existing systems map symptoms to diseases without considering individual Prakriti.</p>
+          </li>
+          <li>
+            <h4>Unstructured classical knowledge</h4>
+            <p>Charaka Samhita and Madhava Nidana hold rich symptom–disease relationships in unstructured Sanskrit text.</p>
+          </li>
+          <li>
+            <h4>Trust and transparency</h4>
+            <p>Users deserve to understand why a recommendation was made — not just receive it.</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================== Stats -->
+  <section class="stats">
+    <div class="container">
+      <div>
+        <div class="stat-num">10+</div>
+        <div class="stat-label">Diseases Targeted</div>
+      </div>
+      <div>
+        <div class="stat-num">3</div>
+        <div class="stat-label">Doshas Modelled</div>
+      </div>
+      <div>
+        <div class="stat-num">2</div>
+        <div class="stat-label">Classical Texts</div>
+      </div>
+      <div>
+        <div class="stat-num">4</div>
+        <div class="stat-label">ML Modules</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================== CTA -->
+  <section class="cta">
+    <div class="container">
+      <span class="eyebrow">Dive deeper</span>
+      <h2>Read the research, the methodology, and the story behind it.</h2>
+      <p>
+        Explore our literature survey, methodology, and progress milestones —
+        or get in touch if you'd like to collaborate.
+      </p>
+      <div class="hero-cta" style="justify-content: center;">
+        <a href="domain.html" class="btn btn-primary">View domain →</a>
+        <a href="contact.html" class="btn btn-ghost">Contact us</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================== Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="brand" style="color: var(--cream);">
+            <span class="brand-mark">आ</span>
+            <span>Ayurveda<em style="font-style: normal; color: var(--gold);">AI</em></span>
+          </div>
+          <p>Smart Ayurvedic Disease Prediction and Recommendation System — a research project at SLIIT, Centre of Excellence for AI.</p>
+        </div>
+        <div>
+          <h4>Project</h4>
+          <ul>
+            <li><a href="domain.html">Domain</a></li>
+            <li><a href="milestones.html">Milestones</a></li>
+            <li><a href="documents.html">Documents</a></li>
+            <li><a href="presentations.html">Presentations</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Team</h4>
+          <ul>
+            <li><a href="about.html">About us</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Institution</h4>
+          <ul>
+            <li><a href="#" target="_blank" rel="noopener">SLIIT</a></li>
+            <li><a href="#" target="_blank" rel="noopener">CoEAI</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2025 · Project ID 25-26J-305</span>
+        <span>SLIIT · IT4010 Research Project</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
